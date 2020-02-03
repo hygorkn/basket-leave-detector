@@ -13,6 +13,9 @@ pip3 install -r requirements.txt
 ```
 
 ### Usage
+| WARNING: The pipline was only tested in Python 3.6 |
+| --- |
+
 #### Run locally using DirectRunner with N workers 
 ```
 python3 main.py \
@@ -21,7 +24,7 @@ python3 main.py \
 --direct_num_workers <N>
 ```
 
-### Test
+#### Test
 ```
 python3 main.py \
 --input 'test_data/input/basket*.json'
