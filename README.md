@@ -16,8 +16,8 @@ pip3 install -r requirements.txt
 #### Run locally using DirectRunner with N workers 
 ```
 python3 main.py \
---input data/input/<file path or wildcard> \
---output data/output/<output preffix>
+--input <file path or wildcard> \
+--output <output preffix>
 --direct_num_workers <N>
 ```
 
