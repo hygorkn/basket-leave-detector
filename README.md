@@ -15,8 +15,15 @@ pip3 install -r requirements.txt
 ### Usage
 #### Run locally using DirectRunner with N workers 
 ```
-python main.py \
+python3 main.py \
 --input data/input/<file path or wildcard> \
 --output data/output/<output preffix>
 --direct_num_workers <N>
 ```
+
+### Test
+```
+python3 main.py \
+--input 'test_data/input/basket*.json'
+--output test_data/output/customers
+--direct_num_workers 1
