@@ -5,7 +5,7 @@
 An Apache Beam pipeline written in Python to detect abandoned baskets by customers in an E-Commerce shop
 
 ### Functionality
-The pipeline reads one or more ```JSON``` files and output the result in a set of output ```JSON``` files.
+The pipeline reads one or more JSON files and output the result in a set of JSON files.
 
 ### Install on Linux
 ```
